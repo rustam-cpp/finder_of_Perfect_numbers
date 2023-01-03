@@ -1,4 +1,4 @@
-# finder_of_Perfect_numbers
+# finder_of_Perfect_numbers_PYTHON
 The program will search for perfect numbers.
 
 6;
