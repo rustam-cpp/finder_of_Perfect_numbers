@@ -1,6 +1,6 @@
 import time
 
-time.sleep(3)
+input('Press ENTER')
 
 start_time = time.clock()
 
