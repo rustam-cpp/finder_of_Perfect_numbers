@@ -10,4 +10,8 @@ The program will search for perfect numbers.
 137438691328;
 2305843008139952128...
 
-You can read more: https://en.wikipedia.org/wiki/Perfect_number
+You can read more: 
+
+https://en.wikipedia.org/wiki/Perfect_number
+
+https://en.wikipedia.org/wiki/List_of_Mersenne_primes_and_perfect_numbers
