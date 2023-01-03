@@ -1,6 +1,8 @@
 import time
 
-input('Press ENTER')
+input('Press ENTER to start')
+print()
+print()
 
 start_time = time.clock()
 
@@ -14,6 +16,8 @@ def check_number(number):
     print(number)
     if number % 10 == 6 or number % 10 == 8:
         for i in range(2, int(number ** 0.5)+1):
+            if sum > number:
+                break
             if number % i == 0:
                 sum += i + number / i
 
