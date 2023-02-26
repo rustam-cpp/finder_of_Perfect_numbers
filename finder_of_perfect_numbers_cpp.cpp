@@ -15,9 +15,9 @@ int main()
         x = pow(2.0, s) - sqrt((pow(2.0, (double) s)) / 2);
         cout << x << " - ";
         sum = 1;
+        
         // function
         start = clock();
-        //cout << "\n" << start;
         if (x % 10 == 6 || x % 10 == 8)
         {
             for (long long i = 2; i < sqrt(x) + 1; i++)
@@ -30,8 +30,8 @@ int main()
             }
         }
         end = clock();
-
         // endfunction
+        
         if (sum == x)
         {
             cout << "True - 2^" << s << " - " << end - start << "ms\n";
